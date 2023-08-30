@@ -5,6 +5,7 @@
     <link rel="icon" href="public/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galaxy</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,18 +15,22 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
+      <center>
+        <nav>
+          <div id="logo-container">
+            <img src="public/vite.jpg" />
           </div>
           <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Invest</a></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Invest</li>
           </ul>
-        </div>
-      </nav>
+          <div id="join-login">
+            <button id="option"><p id="button-text">Join</p></button>
+            <button id="option"><p id="button-text">Login</p></button>
+          </div>
+        </nav>
+      </center>
     </header>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
