@@ -14,6 +14,16 @@ ul {
   margin: 0;
   padding: 0;
   transform: translateY(22px);
+  cursor: pointer;
+}
+ul:hover {
+  cursor: pointer;
+}
+#about:hover {
+  cursor: pointer;
+}
+#home {
+  border-style: none none solid;
 }
 li {
   display: inline;
@@ -21,12 +31,17 @@ li {
   transform: translateY(20px);
   cursor: pointer;
 }
+nav,
+button {
+  border-style: none;
+  border-color: black;
+  background-color: transparent;
+}
 
 nav {
   border-style: none none solid;
   transform: translateY(100px);
   border-width: 0.9px;
-  cursor: pointer;
 }
 
 #join-login {
@@ -53,4 +68,12 @@ img {
   border-radius: 100%;
   float: left;
   transform: translate(10px, 7px);
+}
+
+.image-display {
+  border-style: none none solid;
+  width: 5000px;
+  border-color: black;
+  border-width: 0.9px;
+  transform: translate(-300px, 500px);
 }
