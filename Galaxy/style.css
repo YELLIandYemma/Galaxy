@@ -59,6 +59,14 @@ nav {
   transform: translateY(-3px);
 }
 
+.image-display {
+  border-style: none none solid;
+  width: 5000px;
+  border-color: black;
+  border-width: 0.9px;
+  transform: translate(-300px, 500px);
+}
+
 #logo-container,
 img {
   width: 32px;
@@ -68,16 +76,14 @@ img {
   transform: translate(10px, 7px);
 }
 
-.image-display {
-  border-style: none none solid;
-  width: 5000px;
-  border-color: black;
-  border-width: 0.9px;
-  transform: translate(-300px, 500px);
+.About{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,230%);
 }
-a {
-  display: inline-block;
-  margin: 0;
-  width: px;
-  height: 50px;
+
+#about{
+   text-decoration: underline 10px;
+   cursor:default;
 }
