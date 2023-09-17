@@ -33,7 +33,7 @@ a{
 }
 
 #about{
-    height: 100vh;
+    
     transform: translateY(60px);
 }
     
@@ -41,6 +41,6 @@ a{
     position:absolute;
     top: 50%;
     left:50%;
-    transform: translate(-90%,60%);
+    transform: translate(-90%,250%);
     font-size: larger;
 }
