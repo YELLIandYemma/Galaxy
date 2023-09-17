@@ -5,6 +5,7 @@ body{
 }
 
 nav{
+    position: sticky;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +34,13 @@ a{
 
 #about{
     height: 100vh;
-    border-style: solid;
-    border-color: black;
+    transform: translateY(60px);
+}
+    
+.about{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-90%,60%);
+    font-size: larger;
 }
