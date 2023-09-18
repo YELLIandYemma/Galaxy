@@ -2,6 +2,7 @@
 
 body{
     font-family:'Roboto Condensed', sans-serif;
+    overflow-x: none;
 }
 
 nav{
@@ -43,4 +44,12 @@ a{
     left:50%;
     transform: translate(-90%,250%);
     font-size: larger;
+}
+
+#header-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translate(60px,-30px);
+   background-size: cover;
 }
