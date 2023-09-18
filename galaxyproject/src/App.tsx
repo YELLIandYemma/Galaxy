@@ -8,6 +8,10 @@ function App() {
     <div>
       <NavBar />
       {<About />}
+      <div>
+        <img id="header-img" src="\src\assets\tv_snacks.png"></img>
+      </div>
+      <img />
     </div>
   );
 }
