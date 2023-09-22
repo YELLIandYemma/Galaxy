@@ -8,8 +8,12 @@ function App() {
     <div>
       <NavBar />
       {<About />}
-      <div>
-        <img id="header-img" src="\src\assets\tv_snacks.png"></img>
+      <div className="text-layer">
+        <h1 id="h1">Galaxy</h1>
+        <h2>
+          An Environment where you<br></br> can find all the movies and<br></br>{" "}
+          music for free.
+        </h2>
       </div>
       <img />
     </div>
