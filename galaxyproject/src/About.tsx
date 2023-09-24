@@ -1,6 +1,5 @@
 import React from "react";
-import indexcss from "/src/index.css";
-
+import "./index.css";
 const About: React.FC = () => {
   return (
     <div id="about">
