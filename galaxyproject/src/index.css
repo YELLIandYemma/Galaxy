@@ -37,10 +37,16 @@ a{
     position:absolute;
     top: 50%;
     left:50%;
-    transform: translate(-90%,40cm);
+    transform: translate(-50%,5cm);
     font-size: larger;
+    height: 785px;
+    background-color:lightblue;
+    width: 1553px;
+   
 }
-
+.about{
+  
+}
 #header-img{
    display: flex;
    align-items: center;
@@ -49,8 +55,15 @@ a{
    
 }
 .text-layer{
+    text-align: center;
     transform: translate(27cm,11cm);
     font-size: 1.5em;
+    height:328px ;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    
 }
 .text-layer h1{
     text-decoration: underline 7px navy;
