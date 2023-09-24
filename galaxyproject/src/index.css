@@ -10,22 +10,21 @@ nav{
     display:flex;
     justify-content: center;
     align-items: center;
+    float: right;
+     font-family:'Roboto Condensed', sans-serif;
 }
 
 
 
 nav,li{
     list-style: none;
-    display: inline-block;
+    display:inline-block;
     margin:25px;
+    
 }
 
 li:hover{
-    background-color: gray;
-    width:100px;
-    height: 30px;
-    padding:3px;
-    border-radius: 10px;
+        cursor: pointer;
 }
 
 a{
@@ -33,16 +32,12 @@ a{
     color: black;
 }
 
+    
 #about{
-    
-    transform: translateY(60px);
-}
-    
-.about{
     position:absolute;
     top: 50%;
     left:50%;
-    transform: translate(-90%,250%);
+    transform: translate(-90%,40cm);
     font-size: larger;
 }
 
@@ -51,14 +46,12 @@ a{
    align-items: center;
    justify-content: center;
    transform: translate(60px,-30px);
-   height: ;
+   
 }
 .text-layer{
-    float:right;
-    margin:10px;
-    transform: translate(-4cm,5cm);
+    transform: translate(27cm,11cm);
+    font-size: 1.5em;
 }
-
-#h1{
-    text-decoration: underline 5px rgb(7, 7, 84);
+.text-layer h1{
+    text-decoration: underline 7px navy;
 }
