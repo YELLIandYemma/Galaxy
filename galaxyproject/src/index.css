@@ -7,12 +7,16 @@ body{
 .navbar{
     float: right;
     font-size: 1em;
-    background-color: gray;
     color: white;
     width: 1536px;;
     height:99px ;
+    background-color:#487890 ;
 }
-
+img{
+    width:1535px;
+    height: 500px;
+    transform: translateY(-25cm);
+}
 #header-img{
    display: flex;
    align-items: center;
@@ -37,7 +41,11 @@ body{
     
    
 }
-
+#about img{
+    width:536px;
+    height: 440px;
+    transform: translateX(20cm);
+}
 .about{
     transform: translate(3%,9cm);
 }
@@ -46,7 +54,7 @@ body{
 }
 .text-layer{
     text-align: center;
-    transform: translate(27cm,10cm);
+    transform: translate(27cm,-10cm);
     font-size: 1.5em;
     height:328px ;
     width: 500px;
@@ -57,4 +65,30 @@ body{
 }
 .text-layer h1{
     text-decoration: underline 7px navy;
+}
+#package{
+    transform: translateY(36cm);
+    height: 100vh;
+    width:100vw;
+
+}
+#package h1{
+    text-decoration: underline 2px navy;
+    transform: translateY(4cm);
+
+}
+.card-1{
+    transform: translate(10cm,9cm);
+}
+.card-2{
+    transform: translate(-10cm,5cm);
+
+}
+
+.card-1 h2{
+    transform: translateY(-40px);
+}
+
+.card-2 h2{
+    transform: translateY(-40px);
 }
