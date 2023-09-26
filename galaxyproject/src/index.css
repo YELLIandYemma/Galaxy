@@ -1,38 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 body{
-    font-family:'Roboto Condensed', sans-serif;
-    overflow-x: none;
+    color: white;
 }
 
-nav{
-    position: sticky;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.navbar{
     float: right;
-     font-family:'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    background-color: gray;
+    color: white;
+    width: 1536px;;
+    height:99px ;
 }
 
-
-
-nav,li{
-    list-style: none;
-    display:inline-block;
-    margin:25px;
-    
+#header-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translate(60px,10cm);
+   
 }
 
-li:hover{
-        cursor: pointer;
+.navbar-brand,a{
+    font-size: large;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-    
 #about{
     position:absolute;
     top: 50%;
@@ -40,23 +32,21 @@ a{
     transform: translate(-50%,5cm);
     font-size: larger;
     height: 785px;
+    width: 100vw;
     background-color:lightblue;
-    width: 1553px;
+    
    
 }
+
 .about{
-  
+    transform: translate(3%,9cm);
 }
-#header-img{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   transform: translate(60px,-30px);
-   
+.about h1{
+    text-decoration:underline 7px navy;
 }
 .text-layer{
     text-align: center;
-    transform: translate(27cm,11cm);
+    transform: translate(27cm,10cm);
     font-size: 1.5em;
     height:328px ;
     width: 500px;
