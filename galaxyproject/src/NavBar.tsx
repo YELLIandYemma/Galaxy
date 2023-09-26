@@ -40,12 +40,12 @@ const NavBar: React.FC = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#package">
                 Packages
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+              <a className="nav-link" href="#">
                 Invest
               </a>
             </li>
