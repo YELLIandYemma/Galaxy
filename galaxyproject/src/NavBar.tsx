@@ -6,21 +6,52 @@ import "./index.css";
 
 const NavBar: React.FC = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="/invest">Invest</a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
-      </ul>
+    <nav className="navbar navbar-expand-lg text-end  bg-body-tertiary fixed-top ">
+      <div className="container-fluid">
+        <nav className="navbar bg-body-tertiary">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              Galaxy
+            </a>
+          </div>
+        </nav>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Packages
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link disabled" aria-disabled="true">
+                Invest
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 };
