@@ -4,6 +4,7 @@ const About: React.FC = () => {
   return (
     <div id="about">
       <div className="about">
+        <h1>About</h1>
         <p>
           Welcome to our website, your ultimate destination for<br></br> free
           movies and songs! We are dedicated to providing<br></br> you with a
