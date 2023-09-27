@@ -2,6 +2,7 @@
 
 body{
     color: white;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -24,7 +25,11 @@ img{
    transform: translate(60px,10cm);
    
 }
-
+.scrolledNav {
+  background-color: #487890; /* Change to the desired color when scrolled */
+  color: #fff;
+  transition: background-color 0.3s ease;
+}   
 .navbar-brand,a{
     font-size: large;
 }
@@ -54,7 +59,7 @@ img{
 }
 .text-layer{
     text-align: center;
-    transform: translate(27cm,-10cm);
+    transform: translate(27cm,-35cm);
     font-size: 1.5em;
     height:328px ;
     width: 500px;
@@ -91,4 +96,20 @@ img{
 
 .card-2 h2{
     transform: translateY(-40px);
+}
+
+#Contact{
+    transform: translateY(36.250cm);
+    height: 100vh;
+    width: 100vw;
+    background-color:lightblue ;
+}
+
+#Contact div{
+    transform: translateY(3cm);
+}
+
+.btn{
+    transform: translateY(8cm);
+    width: 1cm;
 }
