@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar"; // Assuming the component file is named NavBar.tsx
 import About from "./About";
 import Packages from "./Packages";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       {<About />}
       {<Packages />}
+      {<Contact />}
 
       <div className="text-layer">
         <h1 id="h1">Galaxy</h1>
