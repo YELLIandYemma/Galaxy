@@ -1,5 +1,3 @@
-import react from "react";
-
 const Contact: React.FC = () => {
   return (
     <div id="Contact">
@@ -34,7 +32,6 @@ const Contact: React.FC = () => {
                   <textarea
                     className="form-control"
                     id="message"
-                    rows="4"
                     placeholder="Your Message"
                     disabled
                   ></textarea>
@@ -46,10 +43,10 @@ const Contact: React.FC = () => {
             </div>
             <div className="col-md-6">
               <h2>Contact Information</h2>
-              <p>123 Main Street</p>
-              <p>City, State ZIP</p>
-              <p>Email: contact@example.com</p>
-              <p>Phone: (123) 456-7890</p>
+              <p>State: Karnataka</p>
+              <p> City: Banglore, 560049</p>
+              <p>Email: unavalible</p>
+              <p>Phone: unavalible</p>
             </div>
           </div>
         </div>
