@@ -106,10 +106,26 @@ img{
 }
 
 #Contact div{
-    transform: translateY(3cm);
+    transform: translateY(1cm);
+}
+.container h1{
+    transform: translateY(2cm);
+text-decoration: underline 2px navy;
 }
 
-.btn{
-    transform: translateY(8cm);
-    width: 1cm;
+.container button{
+    transform: translateY(1.5cm);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
