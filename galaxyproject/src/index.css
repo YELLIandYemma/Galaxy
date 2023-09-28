@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 body{
-    color: white;
+   
     overflow-x: hidden;
 }
 
 .navbar{
     float: right;
     font-size: 1em;
-    color: white;
     width: 1536px;;
     height:99px ;
     background-color:#487890 ;
@@ -24,12 +23,7 @@ img{
    justify-content: center;
    transform: translate(60px,10cm);
    
-}
-.scrolledNav {
-  background-color: #487890; /* Change to the desired color when scrolled */
-  color: #fff;
-  transition: background-color 0.3s ease;
-}   
+}  
 .navbar-brand,a{
     font-size: large;
 }
@@ -129,3 +123,4 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+
