@@ -3,33 +3,56 @@ import react from "react";
 const Contact: React.FC = () => {
   return (
     <div id="Contact">
-      <div className="email-form row g-2">
-        <div className="col-md">
-          <div className="form-floating">
-            <input
-              type="email"
-              className="form-control"
-              id="floatingInputGrid"
-              placeholder="name@example.com"
-              value="mdo@example.com"
-            ></input>
-            <label for="floatingInputGrid">Email address</label>
+      <div className="container">
+        <div className="container">
+          <h1>Contact Us</h1>
+          <div className="row">
+            <div className="col-md-6">
+              <form>
+                <div className="form-group">
+                  <label htmlFor="name"></label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    disabled
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="email"></label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    placeholder="Your Email"
+                    disabled
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message"></label>
+                  <textarea
+                    className="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Your Message"
+                    disabled
+                  ></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary" disabled>
+                  Disabled
+                </button>
+              </form>
+            </div>
+            <div className="col-md-6">
+              <h2>Contact Information</h2>
+              <p>123 Main Street</p>
+              <p>City, State ZIP</p>
+              <p>Email: contact@example.com</p>
+              <p>Phone: (123) 456-7890</p>
+            </div>
           </div>
         </div>
-        <div className="col-md">
-          <div className="form-floating">
-            <select className="form-select" id="floatingSelectGrid">
-              <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <label for="floatingSelectGrid">Works with selects</label>
-          </div>
-        </div>
-        <button type="button" className="btn btn-primary" disabled>
-          Primary button
-        </button>
       </div>
     </div>
   );
