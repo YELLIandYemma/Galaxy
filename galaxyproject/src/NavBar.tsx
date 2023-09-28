@@ -1,9 +1,8 @@
 import React from "react";
-import indexcss from "/src/index.css";
-import { useState, useEffect } from "react";
-import Packages from "./Packages"; // Import the Packages component
-import About from "./About";
-import Contact from "./Contact";
+import "./index.css";
+import "./Packages";
+import "./About";
+import "./Contact";
 import "./index.css";
 
 const NavBar: React.FC = () => {
