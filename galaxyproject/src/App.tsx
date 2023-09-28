@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "./NavBar"; // Assuming the component file is named NavBar.tsx
 import About from "./About";
 import Packages from "./Packages";
