@@ -8,10 +8,10 @@ body{
 .navbar{
     float: right;
     font-size: 1em;
-    width: 1536px;;
-    height:99px ;
-    background-color:#487890 ;
+    height:99px;
+   
 }
+
 img{
     width:1535px;
     height: 500px;
@@ -78,6 +78,7 @@ img{
 }
 .card-1{
     transform: translate(10cm,9cm);
+    
 }
 .card-2{
     transform: translate(-10cm,5cm);
