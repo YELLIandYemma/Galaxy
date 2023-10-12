@@ -53,7 +53,7 @@ img{
 }
 .text-layer{
     text-align: center;
-    transform: translate(27cm,-35cm);
+    transform: translate(27cm,-30cm);
     font-size: 1.5em;
     height:328px ;
     width: 500px;
@@ -78,7 +78,7 @@ img{
 }
 .card-1{
     transform: translate(10cm,9cm);
-    
+        
 }
 .card-2{
     transform: translate(-10cm,5cm);
